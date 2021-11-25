@@ -88,14 +88,14 @@ export default class Login extends Component {
 
   render() {
     return (
-      <div className="h-screen flex bg-gradient-to-r from-blue-400 via-red-500 to-pink-500">
+      <div className="h-screen flex bg-gradient-to-tr from-pink-300 via-purple-300 to-indigo-400">
         <Form
           onSubmit={this.handleLogin}
           ref={(c) => {
             this.form = c;
           }}
         >
-          <div className="w-full my-16 mx-96 max-w-md bg-white rounded-lg border border-primaryBorder shadow-default py-10 px-16">
+          <div className="w-full my-16 mx-96 max-w-md bg-white rounded-lg border border-primaryBorder shadow-default py-10 px-16 ">
             <h1 className="text-2xl font-medium text-primary mt-4 mb-12 text-center">
               Welcome,Login below:
             </h1>
